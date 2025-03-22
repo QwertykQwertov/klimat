@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Голова */
+
+.headback {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(51, 50, 49);
+}
+
+.ulHead {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aLIHead {
+    background-color: rgb(85, 85, 84);
+    padding: 20px 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.aLIHead:hover {
+    background-color: rgb(95, 93, 88);
+}
+
+
+/* Голова */
+
+
+/* slaider */
+
+.mainFormText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.mainFormText ul {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.main1Form {
+    width: 1500px;
+    height: 450px;
+    background-color: rgba(168, 167, 167, 0.274);
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 0 0 15px 1px #ccc;
+}
+
+.main2Form {
+    width: 1500px;
+    height: 220px;
+    background-color: rgba(168, 167, 167, 0.274);
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 0 0 15px 1px #ccc;
+}
+
+.main2Formbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cb {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px 3px #ccc;
+}
+
+.cbText {
+    font-size: 30px;
+}
+
+.main3Form {
+    width: 1500px;
+    height: 240px;
+    background-color: rgba(168, 167, 167, 0.274);
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 0 0 15px 1px #ccc;
+}
+
+div#tekst_sverhu_kartinki {
+    position: relative;
+}
+
+.tekst_sverhu_kartinki {
+    position: absolute;
+    top: 20vw;
+    left: 38vw;
+    text-transform: uppercase;
+    color: white;
+    width: 450px;
+    height: auto;
+    background: #00000094;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font: bold 24px/34px Helvetica, Sans-Serif;
+}
+
+.tekst_sverhu_kartinki p {
+    font-size: 40px;
+}
+
+.slid1 {
+    width: 100%;
+    height: 100%;
+}
+
+.sliderBox {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* slaider */
+
+
+/* Информация */
+
+.mainback {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/pictures_subservices_853_7d9a13.jpg");
+    opacity: 80%;
+}
+
+.mainText {
+    display: flex;
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    margin: 10vw;
+    border: 2 double black;
+    position: absolute;
+}
+
+
+/* Информация */
+
+
+/*  преимущества*/
+
+.main2back {
+    width: 100%;
+    height: 100%;
+}
+
+.main2Text {
+    font-size: 25px;
+}
+
+.headermain2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.main2block {
+    font-size: 24px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main2blocks {
+    width: 400px;
+    height: 100px;
+    margin: 30px;
+}
+
+
+/*преимущества */
+
+
+/* Пректы */
+
+.main4back {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 236, 246);
+    position: relative;
+}
+
+.main4Text {
+    margin: 20px;
+    margin-left: 100px;
+    height: 50px;
+}
+
+.boxmain4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.proectbox {
+    width: 751px;
+    height: 400px;
+    display: block;
+    border: 1px solid rgb(168, 166, 166);
+}
+
+.imgmain4 {
+    margin: 34px;
+    margin-left: 75px;
+    width: 600px;
+    height: 330px;
+}
+
+.Textprice {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -35px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.proect1:hover .Textprice {
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+}
+
+.proect1:hover .imgmain4 {
+    transform: scale(1.2);
+}
+
+
+/* Пректы */
+
+
+/* Галерея */
+
+.main3galerey {
+    margin-top: 100px;
+}
+
+.galerey {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(../img/hero-VLMultiSlideDoor-U204.jpg);
+}
+
+.foto {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.video {
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+}
+
+a.foto:hover {
+    background-image: url(../img/hero-VLMultiSlideDoor-U204.jpg);
+    width: 100%;
+    border-right: 1px solid black;
+}
+
+a.video:hover {
+    background-image: url(../img/Luxury-Courcheve001-rent-France-Alps-1-Baltoro3-1.jpg);
+    width: 100%;
+    margin-left: -680px;
+    border-left: 1px solid black;
+    opacity: 1;
+}
+
+.textFoto {
+    font-size: 35px;
+}
+
+.blockVideo {
+    width: 500px;
+    height: 350px;
+    margin: 200px 650px;
+    border: 5px solid black;
+}
+
+
+/* Галерея */
+
+
+/* Партнеры */
+
+.backmain5 {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main5Text {
+    border-bottom: 1px solid black;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.partnerblock {
+    margin: 0 auto;
+    border: 10px double black;
+    display: flex;
+    margin-top: 50px;
+    width: 98%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main5img1 {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Партнеры */
+
+
+/* Реквизиты */
+
+.main6back {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.main6Text {
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+
+
+/* Реквизиты */
+
+
+/* Карта */
+
+.main7back {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.main7Text {
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+
+
+/* Карта */
+
+
+/* Контыкты */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(51, 50, 49);
+    display: block;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: white;
+    margin: 50px auto;
+}
+
+
+/* Телефон */
+
+.footerTel {
+    color: white;
+    display: flex;
+}
+
+.footerimg {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.footerTel:hover {
+    text-decoration: none;
+}
+
+.footerimg1 {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+.footerTel:hover img.footerimg1 {
+    display: block;
+}
+
+.footerTel:hover img.footerimg {
+    display: none;
+}
+
+
+/* Телефон */
+
+.footerboximg {
+    display: flex;
+}
+
+
+/* Контыкты */

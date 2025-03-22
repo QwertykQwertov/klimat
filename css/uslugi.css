@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Голова */
+.mainText{
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    font-size: 30px;
+    border-bottom:1px solid black ;
+}
+.headback {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(51, 50, 49);
+   
+}
+
+.ulHead {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.aLIHead {
+    background-color:rgb(85, 85, 84);
+    padding: 20px 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+}
+.aLIHead:hover{
+    background-color: rgb(95, 93, 88) ;
+} 
+
+
+/* Голова */
+td{
+    border: 1px solid black;
+    background-color: rgb(224, 224, 246);
+    font-size: 22px;
+}
+.uslugi{
+    display: block;
+}
+.uslugiText{
+    font-size: 40px;
+    margin: 20px;
+}
+/* Контыкты */
+.footer{
+width: 100%;
+height: 200px;
+background-color: rgb(51, 50, 49);
+display: block;
+
+}
+.footerBox{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: white;
+    margin:50px auto;
+}
+
+/* Телефон */
+.footerTel{
+color: white;
+display: flex;
+}
+
+.footerimg{
+    width:50px ;
+    height: 50px;
+    display: block;
+
+}
+
+.footerTel:hover{
+    text-decoration: none;
+}
+
+.footerimg1{
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+    
+.footerTel:hover img.footerimg1{
+    display: block;
+}
+    
+        
+.footerTel:hover img.footerimg{
+    display: none;
+}
+/* Телефон */
+.footerboximg{
+    display: flex;
+}
+/* Контыкты */
