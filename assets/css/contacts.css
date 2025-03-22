@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* О нас */
+.mainBack{
+    width: 100%;
+    height: 100%;
+}
+.mainText{
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    font-size: 30px;
+    border-bottom:1px solid black ;
+}
+.mainText1{
+    margin: 20px;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .footerTel1{
+        color: rgb(0, 0, 0);
+        display: flex;
+        }
+        .footerTel1:hover{
+            text-decoration: none;
+        }
+        /* О нас */

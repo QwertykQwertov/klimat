@@ -1,0 +1,14 @@
+td {
+  border: 1px solid black;
+  background-color: rgb(224, 224, 246);
+  font-size: 22px;
+}
+
+.uslugi {
+  display: block;
+}
+
+.uslugiText {
+  font-size: 40px;
+  margin: 20px;
+}

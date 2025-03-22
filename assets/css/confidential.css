@@ -1,0 +1,26 @@
+
+/* Политика */
+.mainText{
+    margin: 20px auto;
+}
+.mainText1{
+    margin: 0 50px;
+}
+.mainText2{
+    margin: 0 100px;
+}
+/* Политика */
+/* Контыкты */
+.footer{
+width: 100%;
+height: 200px;
+background-color: rgb(51, 50, 49);
+display: block;
+}
+.footerBox{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: white;
+    margin:50px auto;
+}
