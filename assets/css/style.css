@@ -596,6 +596,10 @@ a.video:hover {
   .tekst_sverhu_kartinki {
     width: auto;
   }
+
+  .table {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 450px) {
