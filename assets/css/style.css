@@ -586,4 +586,25 @@ a.video:hover {
   .logo img {
     height: 25px;
   }
+
+  .ki-advantages-card {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .tekst_sverhu_kartinki {
+    width: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .aLIHead {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .subcategory-card {
+    height: 200px;
+  }
 }
