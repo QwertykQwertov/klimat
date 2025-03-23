@@ -2,83 +2,29 @@
 include_once $_SERVER['DOCUMENT_ROOT'] . "/modules/header.php";
 
 ?>
-    <main class="mainBack">
+<section class="contacts pt-5">
+  <h2 class="text-center mb-5"> Наши контакты</h2>
 
-        <div class="mainText">
+  <div class="d-flex justify-content-between container">
+    <div class="contact-left" style="width: 45%">
+      <h5>ООО "КЛИМАТ МА"</h5>
+      <p><strong>ИНН:</strong> 5017103317</p>
+      <p><strong>КПП:</strong> 501701001</p>
+      <p><strong>ОГРН:</strong> 1145017007410</p>
+    </div>
+    <div class="contact-right" style="width: 45%">
+      <p><strong>Фактический адрес:</strong> 143532 Р.Ф., Московская область, Истринский район, г. Дедовск, ул. Энергетиков, д.24</p>
+      <p><strong>Юридический адрес:</strong> 143532 Р.Ф., Московская область, Истринский район, г. Дедовск, ул. Энергетиков, д.24</p>
+      <p><strong>Телефон:</strong> 89099747545</p>
+      <p><strong>Почта:</strong> climatma@mail.ru</p>
+    </div>
+  </div>
 
-            <h2>Где мы находимся</h2>
-        </div>
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A137d1fe89d90cdd2642ecc329e54b8707d146b7077ca4a113e4f545f3e02c9f2&amp;source=constructor" width="100%" height="552" frameborder="0"></iframe>
 
+</section>
 
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9dbe585b1f8e7bdf8904dee8674d45489214afa07b9fa1af787c0f39e50cd2d1&amp;width=auto&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-        <div class="mainText1">
-            <div>
-                <p>Приезжайте:</p>
-                <p>г.Клин, Первомайская улица, 1</p>
-                <p>Мы работаем:</p>
-                <p>С 10:00 До 18:00</p>
-            </div>
+<?
+include_once $_SERVER['DOCUMENT_ROOT'] . "/modules/footer.php";
 
-            <div>
-                <p>Звоните:</p>
-                <a class="footerTel1" href="">
-                    <img class="footerimg1" src="/assets/images/phone-call.png" alt="">
-                    <img class="footerimg" src="/assets/images/premium-icon-phone-call-5585836.png" alt="">
-                    <p>+74999249991</p>
-                </a>
-            </div>
-            <div>
-                <p>Пишите:</p>
-                <a class="footerTel1" href="">vrun1@mail.com</a>
-
-                <a class="footerTel1" href="">vrun2@mail.com</a>
-            </div>
-        </div>
-
-
-    </main>
-    <footer class="footer">
-        <div class="footerBox">
-            <div>
-                <p>Приезжайте:</p>
-                <p>г.Клин, Первомайская улица, 1</p>
-
-                <a class="footerTel" href="">
-                    <p>Политика конфиндицеальности</p>
-                </a>
-
-            </div>
-
-            <div>
-                <p>Звоните:</p>
-                <a class="footerTel" href="">
-                    <img class="footerimg1" src="/assets/images/phone-call.png" alt="">
-                    <img class="footerimg" src="/assets/images/premium-icon-phone-call-5585836.png" alt="">
-                    <p>+74999249991</p>
-                </a>
-            </div>
-            <div>
-                <p>Пишите:</p>
-                <a class="footerTel" href="">vrun1@mail.com</a>
-
-                <a class="footerTel" href="">vrun2@mail.com</a>
-            </div>
-            <div>
-                <p>Отзывы:</p>
-                <a class="footerTel" href="">Отзывы о нас</a>
-            </div>
-            <div>
-                <p>Мы в тренде:</p>
-                <div class="footerboximg">
-                    <a href="#"><img class="footerimg" src="/assets/images/vkontakte.png" alt=""></a>
-                    <a href="#"><img class="footerimg" src="/assets/images/instagram.png" alt=""></a>
-                    <a href="#"><img class="footerimg" src="/assets/images/twitter.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="/assets/js/script.js"></script>
-</body>
-
-</html>
+?>

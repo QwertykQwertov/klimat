@@ -93,8 +93,11 @@
 
 .tekst_sverhu_kartinki {
   position: absolute;
-  top: 20vw;
-  left: 38vw;
+  /* top: 20vw;
+  left: 38vw; */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   text-transform: uppercase;
   color: white;
   width: 450px;
@@ -119,6 +122,7 @@
 .sliderBox {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 
@@ -505,4 +509,15 @@ a.video:hover {
 
 .ki-footer-link:hover {
   color: #9b9d9e !important;
+}
+
+.policy {
+  /* font-family: Arial, sans-serif; */
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-bottom: 15px;
+  padding: 20px;
 }
