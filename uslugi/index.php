@@ -1,4 +1,4 @@
-<?
+<?php
 include_once $_SERVER['DOCUMENT_ROOT'] . "/modules/header.php";
 
 ?>
@@ -598,7 +598,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/modules/header.php";
 </section>
 
 
-<?
+<?php
 include_once $_SERVER['DOCUMENT_ROOT'] . "/modules/footer.php";
 
 ?>

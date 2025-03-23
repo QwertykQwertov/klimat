@@ -19,8 +19,9 @@
   <header class="headback">
     <ul style="margin: 0; padding: 0;">
       <div class="ulHead">
-        <a href="/" class="aLIHead">
-          <li>Главная</li>
+        <a href="/" class="logo">
+          <img src="/assets/images/logo.png" alt="">
+          <!-- <li>Главная</li> -->
         </a>
         <a href="/uslugi" class="aLIHead">
           <li>Услуги</li>

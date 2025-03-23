@@ -163,6 +163,7 @@
   width: 49.5%;
   height: 400px;
   position: relative;
+  cursor: pointer;
   /* background-position: center; */
 }
 

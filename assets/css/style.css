@@ -12,6 +12,17 @@
   background-color: rgb(51, 50, 49);
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.logo img {
+  height: 45px;
+}
+
 .ulHead {
   display: flex;
   justify-content: space-evenly;
@@ -540,6 +551,9 @@ a.video:hover {
 }
 
 @media (max-width: 770px) {
+  .logo img {
+    height: 30px;
+  }
 
   .subcategory-card {
     height: 300px;
@@ -564,8 +578,12 @@ a.video:hover {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .aLIHead {
     font-size: 15px;
+  }
+
+  .logo img {
+    height: 25px;
   }
 }
