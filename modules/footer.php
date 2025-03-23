@@ -51,7 +51,7 @@
           <h5>Контакты</h5>
         </a>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light ki-footer-link">
+          <li class="nav-item mb-2"><a href="/contacts/" class="nav-link p-0 text-light ki-footer-link">
               143532 Р.Ф., Московская область, Истринский район, г. Дедовск, ул. Энергетиков, д.24
             </a></li>
           <li class="nav-item mb-2"><a href="tel:+79099747545" class="nav-link p-0 text-light ki-footer-link">+7 (909) 974-75-45</a></li>

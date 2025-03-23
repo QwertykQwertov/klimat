@@ -1,4 +1,4 @@
-<section class="projects py-5 mb-5">
+<section class="projects py-5">
   <h2 class="text-center"> Наши работы</h2>
   <div class="slider-proj">
     <div class="item">
@@ -25,10 +25,10 @@
     </div>
 
     <div class="slider-dots mt-3">
-      <span class="slider-dots_item" onclick="currentSlide(1)">Многоэтажки</span>
-      <span class="slider-dots_item" onclick="currentSlide(2)">Площадки</span>
-      <span class="slider-dots_item" onclick="currentSlide(3)">Квартирный ремонт</span>
-      <span class="slider-dots_item" onclick="currentSlide(4)">Обустройства местности</span>
-      <span class="slider-dots_item" onclick="currentSlide(5)">Постройка дома мечты</span>
+      <div><span class="slider-dots_item" onclick="currentSlide(1)">Многоэтажки</span></div>
+      <div><span class="slider-dots_item" onclick="currentSlide(2)">Площадки</span></div>
+      <div><span class="slider-dots_item" onclick="currentSlide(3)">Квартирный ремонт</span></div>
+      <div><span class="slider-dots_item" onclick="currentSlide(4)">Обустройства местности</span></div>
+      <div><span class="slider-dots_item" onclick="currentSlide(5)">Постройка дома мечты</span></div>
     </div>
 </section>

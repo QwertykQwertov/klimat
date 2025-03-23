@@ -6,7 +6,7 @@
           <img class="slid1" src="/assets/images/img21.jpg" alt="Текст сверху картинки">
 
           <div class="tekst_sverhu_kartinki">
-            <p class="h3">Строим будущее.</p>
+            <p class="h3">Строим будущее</p>
           </div>
         </div>
       </div>
@@ -15,7 +15,7 @@
           <img class="slid1" src="/assets/images/img2.jpg" alt="Текст сверху картинки">
 
           <div class="tekst_sverhu_kartinki">
-            <p class="h3">Строим на века.</p>
+            <p class="h3">Строим на века</p>
           </div>
         </div>
 

@@ -496,6 +496,8 @@ a.video:hover {
 .partners-logo {
   display: flex;
   align-items: center;
+  padding: 0 10px;
+  max-width: 25%;
 }
 
 .partners-wrapper img {
@@ -520,4 +522,50 @@ a.video:hover {
   color: #333;
   margin-bottom: 15px;
   padding: 20px;
+}
+
+@media (max-width: 990px) {
+  .aLIHead {
+    padding: 10px 20px;
+    /* font-size: 15px; */
+  }
+
+  .tekst_sverhu_kartinki p {
+    font-size: 25px;
+  }
+
+  .ki-overlay .h5 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 770px) {
+
+  .subcategory-card {
+    height: 300px;
+  }
+
+  .ki-overlay.d-flex {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .uk-margin-small-bottom {
+    font-size: 1.1rem;
+  }
+
+  .uk-margin-remove {
+    font-size: 0.9rem;
+  }
+
+  .tekst_sverhu_kartinki p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .aLIHead {
+    font-size: 15px;
+  }
 }

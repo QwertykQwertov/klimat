@@ -16,6 +16,6 @@ function showSlides() {
   }
   slides[slideIndex - 1].style.display = "block";
 
-  setTimeout(showSlides, 300000); // Меняйте изображение каждые 2 секунды
+  setTimeout(showSlides, 3000); // Меняйте изображение каждые 2 секунды
 }
 //слайдер для главной страницыы с таймером
