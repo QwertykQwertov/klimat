@@ -6,7 +6,7 @@
     <!-- modal-lg -->
     <div class="modal-content">
       <div class="modal-header d-flex justify-content-end">
-        <button style="background: transparent; border: none" type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button style="background: transparent; border: none" type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
           <span aria-hidden="true" class="h4">×</span>
         </button>
       </div>
@@ -137,6 +137,11 @@
 
     activeItem.append(img)
     modalCarouselInner.append(activeItem)
+  }
+
+  // Закрытие модального окна
+  function closeModal() {
+    $('#modalCenter').modal('hide')
   }
 </script>
 
