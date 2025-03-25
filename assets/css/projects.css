@@ -133,6 +133,7 @@
   max-width: 80vw;
   /* 80% ширины экрана */
   /* width: 80vw; */
+  /* max-width: 100%; */
   height: 80vh;
   /* 80% высоты экрана */
   margin: 10vh auto;
@@ -156,6 +157,7 @@
 
 .ki-modal-carousel-item-image {
   height: 100%;
+  max-width: 100%;
 }
 
 .project-card {
@@ -188,6 +190,8 @@
   .project-card {
     height: 300px;
   }
+
+
 }
 
 /* @media (max-width: 770px) {
